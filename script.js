@@ -45,11 +45,12 @@ function datos(nombre, pago){
 }
 
 const compra1 = new datos("Fulano", total);
-const compra2 = new datos("Mengano", total);
 
+
+//Desafío complementario
 
 let datosCompra = [];
 
-datosCompra.push(compra1, compra2);
+datosCompra.push(compra1);
 
 console.log(datosCompra);
